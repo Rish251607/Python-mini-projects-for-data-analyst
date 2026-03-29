@@ -1,0 +1,46 @@
+import json
+with open("data.json","r") as file:
+    data = json.load(file)
+    print(data)
+    print(data.values())
+
+with open("Revision_copy.py","w") as filss:
+    dataa = json.dump(data,filss)
+    print(dataa)
+
+    
+"""
+    {
+    "users": [
+        {"id": 1, "name": "Amit", "friends": [2, 3], "liked_pages": [101]}, 
+        {"id": 2, "name": "Priya", "friends": [1, 4], "liked_pages": [102]}, 
+        {"id": 3, "name": "", "friends": [1], "liked_pages": [101, 103]}, 
+        {"id": 4, "name": "Sara", "friends": [2, 2], "liked_pages": [104]}, 
+        {"id": 5, "name": "Amit", "friends": [], "liked_pages": []}
+        ], 
+    "pages": [
+        {"id": 101, "name": "Python Developers"}, 
+        {"id": 102, "name": "Data Science Enthusiasts"}, 
+        {"id": 103, "name": "AI & ML Community"}, 
+        {"id": 104, "name": "Web Dev Hub"}, 
+        {"id": 104, "name": "Web Development"}
+        ]
+}
+
+dict_values([
+    [
+        {'id': 1, 'name': 'Amit', 'friends': [2, 3], 'liked_pages': [101]}, 
+        {'id': 2, 'name': 'Priya', 'friends': [1, 4], 'liked_pages': [102]}, 
+        {'id': 3, 'name': '', 'friends': [1], 'liked_pages': [101, 103]}, 
+        {'id': 4, 'name': 'Sara', 'friends': [2, 2], 'liked_pages': [104]}, 
+        {'id': 5, 'name': 'Amit', 'friends': [], 'liked_pages': []}
+        ], 
+    [
+        {'id': 101, 'name': 'Python Developers'}, 
+        {'id': 102, 'name': 'Data Science Enthusiasts'}, 
+        {'id': 103, 'name': 'AI & ML Community'}, 
+        {'id': 104, 'name': 'Web Dev Hub'}, 
+        {'id': 104, 'name': 'Web Development'}
+        ]
+    ])
+    """
