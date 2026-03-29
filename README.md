@@ -85,12 +85,4 @@ Built a chatbot using OpenAI API with conversation memory and dynamic responses.
 ---
 
 📌 Author
-<<<<<<< HEAD
-<<<<<<< HEAD:README.md
 -- Rishabh
-=======
--- Rishabh
->>>>>>> e11780c5954c1e950df3122bbcf16a84cec5eae2:README.md.txt
-=======
--- Rishabh
->>>>>>> 9b9491f24c1ae676b83b87f20bd7485cc88e2c12
