@@ -63,7 +63,7 @@ Built a chatbot using OpenAI API with conversation memory and dynamic responses.
 
 ---
 
-## 🛠️ Technologies Used
+🛠️ Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -74,7 +74,7 @@ Built a chatbot using OpenAI API with conversation memory and dynamic responses.
 
 ---
 
-## 🎯 Key Learnings
+🎯 Key Learnings
 - Time-series data analysis
 - Data cleaning and preprocessing
 - Business insight generation
@@ -85,4 +85,8 @@ Built a chatbot using OpenAI API with conversation memory and dynamic responses.
 ---
 
 📌 Author
+<<<<<<< HEAD:README.md
 -- Rishabh
+=======
+-- Rishabh
+>>>>>>> e11780c5954c1e950df3122bbcf16a84cec5eae2:README.md.txt
